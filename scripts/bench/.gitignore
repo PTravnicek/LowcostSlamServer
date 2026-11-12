@@ -1,0 +1,6 @@
+# Record outside the repository; guard common local output paths too.
+/runs/
+/data/
+/check-*/
+/T[1-5]-*/
+*.ubx

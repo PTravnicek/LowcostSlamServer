@@ -4,6 +4,12 @@ This project needs a Python SDK for your camera to use.
 
 If you're using Insta360 cameras, you can use the [Insta360 Camera SDK Python Wrapper](https://github.com/gureckyfrantisek/Insta360CameraSDKPythonWrapper) I made.
 
+## Hardware timing bench
+
+Standalone ROCK Pi X / LIS3DH / ZED-F9P FIFO timing experiments, setup, wiring
+and offline tests are in [scripts/bench](scripts/bench/README.md).
+These tools do not change the server's acquisition implementation.
+
 ## Setup
 Put the wrapped SDK into the sdk folder.
 
